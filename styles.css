@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  text-align: center;
+ font-family: 'Merriweather', serif;
+}
+
+.topConeiner{
+  margin: 0;
+background-color: #E8F9FD;
+padding-top: 100px;
+
+/* height: 200px;
+width: 200px */
+}
+/* .midelConeiner{
+  background-color: red;
+  height: 200px;
+  width: 200px
+}
+.bottomConeiner{
+  background-color: green;
+  height: 200px;
+  width: 200px
+}*/
+h1{
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*562.5%; */
+  /* line-height: 2 */
+
+}
+h2{
+  color: #66BFBF;
+  font-family:'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+  font-family:'Montserrat', sans-serif;
+}
+.topConeiner {
+position: relative;
+  display: block;
+  margin: 0;
+    /* font-family: monospace;
+    text-decoration: underline; */
+
+    font-size: 20px;
+  }
+  /* p{
+     display: inline-block;
+  } */
+  .pro{
+    text-decoration: underline;
+  }
+
+  .topCloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    /* margin-left: 380px; */
+  }
+
+.bottomCloud{
+  position: absolute;
+  margin: 0;
+  left: 300px;
+  bottom: 300px;
+}
+
+.avatar{
+  width: 15%;
+  border-radius: 50%;
+}
+.skills-pic{
+  width: 15%;
+  border-radius: 50%;
+}
+.skils-text{
+ display: inline-block;
+align-self: center;
+  text-align: left;
+  width: 15%;
+  }
+  a:-webkit-any-link {
+    color: #11999E;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:-webkit-any-link:active {
+  color: orange;
+}
+a:visited {
+  color: blue;
+  text-decoration: underline;
+  cursor: auto;
+}
