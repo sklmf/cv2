@@ -8,6 +8,7 @@ body{
   margin: 0;
 background-color: #E8F9FD;
 padding-top: 100px;
+display: flex;
 
 /* height: 200px;
 width: 200px */
@@ -39,6 +40,10 @@ h2{
 h3{
   color: #11999E;
   font-family:'Montserrat', sans-serif;
+  /* text-align: left; */
+}
+p{
+  line-height: 2;
 }
 .topConeiner {
 position: relative;
@@ -73,18 +78,39 @@ position: relative;
 .avatar{
   width: 15%;
   border-radius: 50%;
+
 }
-.skills-pic{
-  width: 15%;
+.skills-pic-down{
+  width: 25%;
   border-radius: 50%;
+  float: left;
+}
+.skills-pic-up{
+  width: 25%;
+  border-radius: 50%;
+  float: right;
 }
 .skils-text{
  display: inline-block;
 align-self: center;
   text-align: left;
-  width: 15%;
+  width: 30%;
+  margin-left: 30px;
   }
-  a:-webkit-any-link {
+.skills{
+  /* display: inline-block; */
+  /* align-items: center; */
+  width: 100%;
+}
+.skill-row{
+  text-align: left;
+  /* display: inline-block; */
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+
+a:-webkit-any-link {
     color: #11999E;
     cursor: pointer;
     text-decoration: underline;
