@@ -5,9 +5,9 @@ body{
 }
 
 .topConeiner{
+  padding: 100px 0;
   margin: 0;
 background-color: #E8F9FD;
-padding-top: 100px;
 display: flex;
 
 /* height: 200px;
@@ -23,11 +23,19 @@ width: 200px */
   height: 200px;
   width: 200px
 }*/
+.middle-container{
+  margin: 100px 0;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
 hr{
   border-top: 10px;
   border-style: dotted;
-  width: 80px;
+  width: 4%;
   border-color: #EAF6F6;
+  margin: 100px auto;
 }
 h1{
   color: #66BFBF;
@@ -135,6 +143,9 @@ a:visited {
   text-decoration: none;
   cursor: auto;
 }
+a:hover{
+  color: #EAF6F6;
+}
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -146,6 +157,7 @@ a:visited {
   -moz-border-radius: 8;
   border-radius: 8px;
   color: #ffffff;
+  font-family:'Montserrat', sans-serif;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -179,9 +191,11 @@ a:visited {
 } */
 .footer-link{
   margin: 30px;
-  text-decoration-color: #11999E;
+
+  font-family:'Montserrat', sans-serif;
 }
 .signature{
   margin-top: 40px;
   color: #EAF6F6;
+  font-size: 0.75rem;
 }
